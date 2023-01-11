@@ -17,7 +17,7 @@ getmonth = str.upper(datetime.now().strftime("%b"))
 getyear = datetime.now().strftime("%Y")
 name_dir = "working_files_{month} {year}"
 directory = name_dir.format(year=getyear, month=getmonth)
-parent_dir = "R:\Doc\Kunden Produktlisten\!_current working file"
+parent_dir = "*"
 dir_path = os.path.join(parent_dir, directory)
 isExist = os.path.exists(dir_path)
 
