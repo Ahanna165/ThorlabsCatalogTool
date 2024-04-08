@@ -1,6 +1,5 @@
 # E-commerce tool for master data processing
 
-# Content Description
 * This program manages the master data versions of products 
 * cleans the data
 * creates unit naming versions according to different customer requiremnts
